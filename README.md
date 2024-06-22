@@ -5,7 +5,7 @@ A brief description of what this project does and who it's for
 
 # Overview
 
-This repository contains a CPU Scheduler simulation implemented in Python. The simulation supports four scheduling algorithms:
+This repository contains a CPU Scheduler simulation implemented in C++. The simulation supports four scheduling algorithms:
 1.) Shortest Job Next (SJN)
 2.) Round Robin (RR). 
 3.) Shortest Job First (SJF)
@@ -21,7 +21,7 @@ output.txt: The output file where the results of the scheduling are written.
 # How to Run the Project
 To run the project, follow these steps:
 
-Clone the repository: git clone https://github.com/Deepak42-y/CPU-Scheduler.git
+Clone the repository: git clone https://github.com/Amankumar5633/cpu_scheduler.git
 Compile the code: g++ -o cpu_scheduler cpu_scheduler.cpp
 Run the executable: ./scheduler input.txt output.txt
 
